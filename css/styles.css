@@ -26,9 +26,10 @@ header {
     background-size: cover;
     color: var(--primary-white);
     /* display: flex; */
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
+    position: relative;
 }
 
 nav {
@@ -64,6 +65,7 @@ nav a {
 .about-text p {
     max-width: 80%;
     line-height: 1.5;
+    margin-top: 1rem;
 }
 
 .about-pic {
@@ -72,6 +74,7 @@ nav a {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 2rem;
 }
 
 
@@ -81,5 +84,27 @@ nav a {
     background-color: var(--primary-green);
     font-size: 1rem;
     margin-top: 1rem;
+}
+
+.text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.text h4 {
+    letter-spacing: 2px;
+}
+
+.text p {
+    margin-top: .5rem;
+    letter-spacing: 1px;
 }
 
