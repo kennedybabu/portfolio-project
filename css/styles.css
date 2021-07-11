@@ -38,6 +38,10 @@ nav {
     justify-content: space-around;
 }
 
+nav span {
+    color: var(--primary-green);
+}
+
 nav a {
     text-decoration: none;
     color: var(--primary-white);
@@ -47,9 +51,7 @@ nav a {
 .about-me {
     min-height: 100vh;
     display: flex;
-    background-color: var(--primary-dark);
-
-    
+    background-color: var(--primary-dark);    
 }
 
 .about-text {
@@ -59,7 +61,7 @@ nav a {
     justify-content: center;
     text-align: start;
     flex-direction: column;
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .about-text p {
@@ -71,8 +73,8 @@ nav a {
 .about-pic {
     flex: 1;
     background-image: url(/images/frantzou-fleurine-RTZ_u7LiEfg-unsplash.jpg);
-    background-position: top;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
     margin: 2rem;
 }
@@ -106,5 +108,12 @@ nav a {
 .text p {
     margin-top: .5rem;
     letter-spacing: 1px;
+}
+
+.projects {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.712)), url(/images/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg);
 }
 
