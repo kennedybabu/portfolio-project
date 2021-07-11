@@ -39,6 +39,10 @@ nav {
     justify-content: space-around;
 }
 
+nav h2 {
+    font-size: 1.8rem;
+}
+
 span {
     color: var(--primary-green);
 }
@@ -48,6 +52,12 @@ nav a {
     color: var(--primary-white);
     margin-right: 2rem;
     font-weight: 600;
+    font-size: 1.2rem;
+    transition: all ease-in-out .2s;
+}
+
+nav a:hover {
+    color: var(--primary-green);
 }
 
 .about-me {
@@ -219,6 +229,15 @@ nav a {
 } 
 
 
+.card .face.back a {
+    text-decoration: none;
+    margin-top: 1rem;
+    background-color: var(--primary-dark);
+    color: white;
+    padding: .5rem 1rem;
+}
+
+
 .tray {
     width: 90%;
     height: 80%;
@@ -230,10 +249,8 @@ nav a {
 }
 
 footer {
-    min-height: 40vh;
-    padding-left: 3rem;
+    min-height: 20vh;
     background-color: rgb(32, 32, 32);
-    /* margin: 32px; */
     color: white;
     margin-top: -1.5rem;
     display: flex;
@@ -266,5 +283,30 @@ input {
 .submit {
     border: none;
     padding: 4px 8px;
+    background-color: var(--primary-green);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+
+.social {
+    transition: all ease-in-out .2s;
+}
+
+
+.social:hover {
+    transform: scale(1.2);
+}
+
+.social img {
+    height: 2rem;
+    width: 2rem;
+    filter: invert(1);
 }
 
