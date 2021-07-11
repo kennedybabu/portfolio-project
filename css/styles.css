@@ -8,6 +8,11 @@
 html {
     font-family: 'Montserrat', sans-serif;
     color: var(--primary-white);
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -25,10 +30,6 @@ header {
     background-position: center;
     background-size: cover;
     color: var(--primary-white);
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center;
-    text-align: center; */
     position: relative;
 }
 
@@ -38,7 +39,7 @@ nav {
     justify-content: space-around;
 }
 
-nav span {
+span {
     color: var(--primary-green);
 }
 
@@ -118,7 +119,7 @@ nav a {
     justify-content: center;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.712)), url(/images/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.815)), url(/images/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg);
 }
 
 .card {
@@ -126,8 +127,7 @@ nav a {
     height: 450px;
     position: relative;
     transform-style: preserve-3d;
-    /* border-radius: 3px; */
-    /* overflow: hidden; */
+    
 }
 
 .card .face {
@@ -195,7 +195,6 @@ nav a {
     background-color: crimson;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-image: url(/images/nadi-whatisdelirium-fZ8uf_L52wg-unsplash.jpg); */
 
 }
 
@@ -207,7 +206,7 @@ nav a {
 
 .card .face.back {
     background-image: linear-gradient(to right bottom, rgb(146, 206, 35), rgb(35, 206, 107));
-    color: #fff;
+    color: var(--primary-dark);
     transform: perspective(900px) rotateY(180deg);
     display: flex;
     align-items: center;
@@ -226,9 +225,46 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* border: 1px solid black; */
     padding: 1.5rem 1rem;
-    backdrop-filter: blur(.5rem);  
     border-radius: 3px;  
+}
+
+footer {
+    min-height: 40vh;
+    padding-left: 3rem;
+    background-color: rgb(32, 32, 32);
+    /* margin: 32px; */
+    color: white;
+    margin-top: -1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer p {
+    font-weight: 400;
+}
+
+input {
+    background-color: rgb(32, 32, 32);
+    border: 1px solid white;
+    color: white;
+    padding: 3px;    
+}
+
+.contact {
+    display: flex;
+    gap: 2rem;
+}
+
+.icon {
+    width: 1rem;
+    height: auto;
+    filter: invert(1);
+}
+
+.submit {
+    border: none;
+    padding: 4px 8px;
 }
 
