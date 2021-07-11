@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-white);
+}
+
 :root {
     --primary-dark-light: rgb(80, 81, 79);
     --primary-dark: rgb(39, 45, 45);
@@ -13,38 +18,68 @@
     --primary-purple: rgb(168, 70, 160);
 }
 
+header {
+    min-height: 100vh;
+    padding: 2rem 3rem 0 3rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.39), rgb(0, 0, 0)), url(/images/steven-kamenar-MMJx78V7xS8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--primary-white);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem 0 2rem;
-   
+    justify-content: space-around;
 }
 
-ul {
-    display: flex;
+nav a {
+    text-decoration: none;
+    color: var(--primary-white);
+    margin-right: 2rem;
 }
 
-li {
-    list-style: none;
-    margin-left: 1rem;
-}
-
-.hero {
+.about-me {
     min-height: 100vh;
-    padding: 2rem 3rem 0 3rem;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.979)), url(/images/steven-kamenar-MMJx78V7xS8-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
+    display: flex;
+    background-color: var(--primary-dark);
 
-.hero h2 {
-    font-weight: 600;
-}
-
-.hero-text {
     
 }
+
+.about-text {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.about-text p {
+    max-width: 80%;
+    line-height: 1.5;
+}
+
+.about-pic {
+    flex: 1;
+    background-image: url(/images/frantzou-fleurine-RTZ_u7LiEfg-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.btn {
+    padding: .5rem 2rem;
+    border: none;
+    background-color: var(--primary-green);
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
