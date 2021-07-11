@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --primary-dark-light: rgb(80, 81, 79);
+    --primary-dark: rgb(39, 45, 45);
+    --primary-white: rgb(246, 248, 255);
+    --primary-green: rgb(35, 206, 107);
+    --primary-purple: rgb(168, 70, 160);
 }
 
 
@@ -28,8 +38,13 @@ li {
     background-position: center;
     background-size: cover;
     color: white;
-    /* text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero h2 {
+    font-weight: 600;
+}
+
+.hero-text {
+    
 }
