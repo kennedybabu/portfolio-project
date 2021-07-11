@@ -26,7 +26,7 @@ body {
 header {
     min-height: 100vh;
     padding: 2rem 3rem 0 3rem;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.39), rgb(0, 0, 0)), url(/images/steven-kamenar-MMJx78V7xS8-unsplash.JPG);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.39), rgb(0, 0, 0)), url(./images/steven-kamenar-MMJx78V7xS8-unsplash.jpg);
     background-position: center;
     background-size: cover;
     color: var(--primary-white);
