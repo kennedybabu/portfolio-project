@@ -122,6 +122,43 @@ nav a:hover {
     letter-spacing: 1px;
 }
 
+
+.info {
+    height: 100vh;
+    background-color: var(--primary-dark-light);
+    display: flex;
+
+}
+
+.info-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+}
+
+.info-pic {
+    flex: 1;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic-container {
+    background-image: url(/images/alex-robinson-AGr13YPOPqw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 90%;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 0px 1px rgba(35,206,107,1);
+-webkit-box-shadow: 10px 10px 0px 1px rgba(35,206,107,1);
+-moz-box-shadow: 10px 10px 0px 1px rgba(35,206,107,1);
+}
+
 .projects {
     min-height: 100vh;
     display: flex;
@@ -150,7 +187,6 @@ nav a:hover {
     backface-visibility: hidden;
     transition:  1s ease-in-out;
     transform: perspective(900px) rotateY(0deg);
-
 }
 
 
