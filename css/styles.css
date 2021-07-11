@@ -145,13 +145,12 @@ nav a {
 
 
 .card .face.front {
-    background: #ff0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.527));
     display: flex;
     flex-direction: column;
 }
 
 .top {
-    flex: 2;
     min-height: 75%;
     background-position: center;
     border-radius: 0 0 3px 3px;
@@ -162,10 +161,30 @@ nav a {
 
 
 .top.one {
+    background-image: url(/images/nadi-whatisdelirium-fZ8uf_L52wg-unsplash.jpg);
 
 }
+
+.top.two {
+    background-image: url(/images/afeeq-nadzrin-RR1Jb8Vjoh8-unsplash.jpg);
+}
+
+.top.three {
+    background-image: url(/images/fathul-abrar-T-qI_MI2EMA-unsplash.jpg);
+}
+
 .bottom {
-    min-height: 50%;
+    max-height: 25%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom p {
+    font-size: 1.5rem;
+    color: var(--primary-dark);
+    margin-top: 2rem;
 }
 
 
@@ -187,12 +206,13 @@ nav a {
 
 
 .card .face.back {
-    background: #3bc2ff;
+    background-image: linear-gradient(to right bottom, rgb(146, 206, 35), rgb(35, 206, 107));
     color: #fff;
     transform: perspective(900px) rotateY(180deg);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .card:hover .face.back {
@@ -201,10 +221,14 @@ nav a {
 
 
 .tray {
-    width: 80%;
+    width: 90%;
     height: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* border: 1px solid black; */
+    padding: 1.5rem 1rem;
+    backdrop-filter: blur(.5rem);  
+    border-radius: 3px;  
 }
 
