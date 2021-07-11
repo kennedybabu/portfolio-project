@@ -46,6 +46,7 @@ nav a {
     text-decoration: none;
     color: var(--primary-white);
     margin-right: 2rem;
+    font-weight: 600;
 }
 
 .about-me {
@@ -112,8 +113,98 @@ nav a {
 
 .projects {
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-size: cover;
     background-position: center;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.712)), url(/images/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg);
+}
+
+.card {
+    width: 320px;
+    height: 450px;
+    position: relative;
+    transform-style: preserve-3d;
+    /* border-radius: 3px; */
+    /* overflow: hidden; */
+}
+
+.card .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition:  1s ease-in-out;
+    transform: perspective(900px) rotateY(0deg);
+
+}
+
+
+.card .face.front {
+    background: #ff0;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex: 2;
+    min-height: 75%;
+    background-position: center;
+    border-radius: 0 0 3px 3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: crimson;
+}
+
+
+.top.one {
+
+}
+.bottom {
+    min-height: 50%;
+}
+
+
+.top.one {
+    max-height: 50%;
+    background-position: center;
+    border-radius: 0 0 3px 3px;
+    background-color: crimson;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url(/images/nadi-whatisdelirium-fZ8uf_L52wg-unsplash.jpg); */
+
+}
+
+
+.card:hover .face.front {
+    transform: perspective(900px) rotateY(180deg);
+}
+
+
+.card .face.back {
+    background: #3bc2ff;
+    color: #fff;
+    transform: perspective(900px) rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover .face.back {
+    transform: perspective(900px) rotateY(360deg);
+} 
+
+
+.tray {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
