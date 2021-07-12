@@ -26,7 +26,7 @@ body {
 header {
     min-height: 100vh;
     padding: 2rem 3rem 0 3rem;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.39), rgb(0, 0, 0)), url(/images/steven-kamenar-MMJx78V7xS8-unsplash.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.39), rgb(0, 0, 0)), url(/steven-kamenar-MMJx78V7xS8-unsplash.jpg);
     background-position: center;
     background-size: cover;
     color: var(--primary-white);
@@ -84,7 +84,7 @@ nav a:hover {
 
 .about-pic {
     flex: 1;
-    background-image: url(/images/frantzou-fleurine-RTZ_u7LiEfg-unsplash.jpg);
+    background-image: url(/frantzou-fleurine-RTZ_u7LiEfg-unsplash.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -148,7 +148,7 @@ nav a:hover {
 }
 
 .pic-container {
-    background-image: url(/images/alex-robinson-AGr13YPOPqw-unsplash.jpg);
+    background-image: url(/alex-robinson-AGr13YPOPqw-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 80%;
@@ -166,7 +166,7 @@ nav a:hover {
     justify-content: center;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.815)), url(/images/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.815)), url(/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg);
 }
 
 .card {
@@ -207,16 +207,16 @@ nav a:hover {
 
 
 .top.one {
-    background-image: url(/images/nadi-whatisdelirium-fZ8uf_L52wg-unsplash.jpg);
+    background-image: url(/nadi-whatisdelirium-fZ8uf_L52wg-unsplash.jpg);
 
 }
 
 .top.two {
-    background-image: url(/images/afeeq-nadzrin-RR1Jb8Vjoh8-unsplash.jpg);
+    background-image: url(/afeeq-nadzrin-RR1Jb8Vjoh8-unsplash.jpg);
 }
 
 .top.three {
-    background-image: url(/images/fathul-abrar-T-qI_MI2EMA-unsplash.jpg);
+    background-image: url(/fathul-abrar-T-qI_MI2EMA-unsplash.jpg);
 }
 
 .bottom {
